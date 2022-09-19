@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    font-family: 'Press Start 2P';
+}
+.hud{
+    color:white;
+    
+}
+
+h1{
+    color:white;
+    text-align: center; 
+    font-weight: lighter;
+}
+body{
+    background-color: black;
+}
+.wall{
+    background-color: rgb(52,69,169);
+}
+.void{
+    background-color: black;
+}
+.dot, .bigdot, .pc, .red, .blue, .pink, .orange{
+    margin:auto;
+}
+.dot, .bigdot{
+    background-color:#f8b090;
+}
+._dot, ._bigdot, .pacman{
+    background-color:black;
+}
+.pc{
+    background-color: yellow;
+    height: 90%;
+    width: 90%;
+    border-radius:100%;
+}
+.dot{
+    height: 15%;
+    width: 15%;
+}
+.bigdot{
+    height: 30%;
+    width: 30%;
+}
+.red, .orange, .blue, .pink{
+    height: 75%;
+    width: 75%;
+}
+.red{background-color: red;}
+.orange{background-color: orange;}
+.pink{background-color: pink;}
+.blue{background-color: lightblue;}
+table{
+    display:flex;
+    justify-content: center;
+}
+table, tr, td{
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+td{
+    width: 30px;
+    height: 30px;
+}
