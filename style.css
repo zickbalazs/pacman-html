@@ -46,7 +46,9 @@ body{
 }
 .red, .orange, .blue, .pink{
     height: 75%;
-    width: 75%;
+    width: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 .red{background-color: red;}
 .orange{background-color: orange;}
